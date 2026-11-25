@@ -11,11 +11,17 @@
 Нужен Python 3.12+.
 
 ```bash
+git clone https://github.com/lezzzl/bb-poc.git
+cd bb-poc
 python3 -m venv .venv
 .venv/bin/pip install -e '.[dev]'
 cp .env.example .env    # вписать OPENROUTER_API_KEY
 .venv/bin/pytest tests/poc -q
 ```
+
+Ключ OpenRouter берётся на [openrouter.ai](https://openrouter.ai/keys) (нужно пополнить баланс; один эпизод на Haiku стоит доли цента). Без ключа работает только ручной режим.
+
+На Windows вместо `.venv/bin/...` пишется `.venv\Scripts\...`, вместо `cp` — `copy`.
 
 ## Страница для сотрудника
 
@@ -28,7 +34,20 @@ cp .env.example .env    # вписать OPENROUTER_API_KEY
 - **С помощником:** через 15–35 с появляется сводка. Источники выводов открываются кнопками. «Принять», «Принять с правками» или «Отклонить».
 - **Вручную:** слева весь ящик (57 писем) с поиском, справа та же форма. «Сдать».
 
-Для замера можно положить `TEST/assignments.csv` (`participant,order_no,case_id,mode`, где `mode` — `manual` или `assistant`): страница сама выдаёт участнику следующее задание.
+Для начала попробуй `TEST-20` с помощником: сводка, предложенный следующий статус и кнопки источников.
+
+### Задания для замера (необязательно)
+
+Без файла заданий участник сам выбирает кейс и режим. Если положить `TEST/assignments.csv`, страница по имени участника выдаёт ему задания по порядку и пропускает уже сданные:
+
+```csv
+participant,order_no,case_id,mode
+Максим,1,TEST-20,assistant
+Максим,2,TEST-07,manual
+Артём,1,TEST-07,assistant
+```
+
+`mode` — `assistant` или `manual`. Файл в git не попадает.
 
 ## Командная строка
 
@@ -39,7 +58,7 @@ cp .env.example .env    # вписать OPENROUTER_API_KEY
 .venv/bin/python -m poc export-blind poc_data/blind.jsonl   # результаты для слепой оценки
 ```
 
-Журнал и тестовые карточки — `poc_data/poc.sqlite` (создаётся при первом запуске).
+Журнал и тестовые карточки — `poc_data/poc.sqlite` (создаётся при первом запуске). Чтобы начать с чистого журнала (например, перед замером), удали или переименуй этот файл.
 
 ## Как устроено
 
