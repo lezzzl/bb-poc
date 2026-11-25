@@ -1,0 +1,33 @@
+{
+  "application_id": "TEST-APP-113",
+  "status": "Новая заявка",
+  "recorded_at": "2026-11-20T10:00:00+03:00",
+  "invoice_id": "TEST-INV-713",
+  "registered_on": "2026-11-19",
+  "counterparty_invoice_amount": 9810,
+  "currency": "EUR",
+  "client": {
+    "company_id": "CL-03",
+    "role": "Клиент",
+    "name": "ООО «Демо Спектр-Лаб»",
+    "registration_ref": "DEMO-CL-03",
+    "address": "Тестоград, пр. Синтетический, 37",
+    "email": "client-spectrum@example.com"
+  },
+  "service_provider": {
+    "company_id": "SV-01",
+    "role": "Исполнитель",
+    "name": "ООО «Демо Расчёт-Сервис»",
+    "registration_ref": "DEMO-SV-01",
+    "address": "Тестоград, пл. Синтетическая, 5",
+    "email": "desk@example.com"
+  },
+  "counterparty": {
+    "company_id": "CP-01",
+    "role": "Контрагент",
+    "name": "Northwind Demo Supply",
+    "registration_ref": "DEMO-CP-01",
+    "address": "10 Fixture Road, Testport",
+    "email": "supplier-north@example.com"
+  }
+}

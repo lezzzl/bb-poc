@@ -1,0 +1,9 @@
+{
+  "mail_id": "M046",
+  "subject": "Уточнение",
+  "from": "client-vector@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T11:00:00+03:00",
+  "text": "Уточняем: получатель ошибся, по TEST-APP-108 зачисления пока нет.",
+  "attachments": []
+}

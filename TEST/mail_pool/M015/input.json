@@ -1,0 +1,9 @@
+{
+  "mail_id": "M015",
+  "subject": "Статус исходящего перевода",
+  "from": "manager@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T10:35:00+03:00",
+  "text": "Платёж по ARCH-122 / ARCH-INV-722 отклонён банком. Это поручение из отдельного архива.",
+  "attachments": []
+}

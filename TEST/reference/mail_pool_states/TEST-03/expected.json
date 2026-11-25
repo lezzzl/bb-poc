@@ -1,0 +1,35 @@
+{
+  "case_id": "TEST-03",
+  "application_id": "TEST-APP-115",
+  "crm_status_before_processing": "Оформление и подписание акта",
+  "last_confirmed_status": "Оформление и подписание акта",
+  "proposed_status": "Заявка завершена",
+  "crm_status_without_employee_approval": "Оформление и подписание акта",
+  "expected_status_if_proposal_approved": "Заявка завершена",
+  "requires_review": false,
+  "next_action": "Закрыть заявку после принятия сотрудником.",
+  "clarification": null,
+  "expected_mail_ids": [
+    "M002",
+    "M003"
+  ],
+  "documents_before": [
+    "application.pdf",
+    "invoice.pdf"
+  ],
+  "documents_to_add": [
+    {
+      "source_id": "ACT",
+      "mail_id": "M002",
+      "file_name": "act_act.pdf",
+      "path": "documents/act_act.pdf",
+      "classification": "received"
+    }
+  ],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "act_act.pdf",
+    "application.pdf",
+    "invoice.pdf"
+  ]
+}

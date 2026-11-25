@@ -1,0 +1,27 @@
+{
+  "case_id": "TEST-27",
+  "application_id": "TEST-APP-109",
+  "crm_status_before_processing": "Ожидаем поступления денег",
+  "last_confirmed_status": "Ожидаем поступления денег",
+  "proposed_status": null,
+  "crm_status_without_employee_approval": "Ожидаем поступления денег",
+  "expected_status_if_proposal_approved": "Ожидаем поступления денег",
+  "requires_review": true,
+  "next_action": "Уточнить у руководителя, к какой заявке относится зачисление.",
+  "clarification": "Уточнить у руководителя, к какой заявке относится зачисление.",
+  "expected_mail_ids": [
+    "M044"
+  ],
+  "documents_before": [
+    "application.pdf",
+    "invoice.pdf",
+    "related_open_request.json"
+  ],
+  "documents_to_add": [],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "application.pdf",
+    "invoice.pdf",
+    "related_open_request.json"
+  ]
+}

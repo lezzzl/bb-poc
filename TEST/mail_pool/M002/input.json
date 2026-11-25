@@ -1,0 +1,11 @@
+{
+  "mail_id": "M002",
+  "subject": "Акт",
+  "from": "client-meridian@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T10:35:00+03:00",
+  "text": "Возвращаем акт по заявке TEST-APP-115.",
+  "attachments": [
+    "act_act.pdf"
+  ]
+}

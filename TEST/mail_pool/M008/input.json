@@ -1,0 +1,9 @@
+{
+  "mail_id": "M008",
+  "subject": "Подписи в заявке",
+  "from": "client-spectrum@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T11:00:00+03:00",
+  "text": "Мы уже подписали заявку TEST-APP-123 обеими сторонами.",
+  "attachments": []
+}

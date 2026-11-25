@@ -1,0 +1,26 @@
+{
+  "case_id": "TEST-26",
+  "application_id": "TEST-APP-108",
+  "crm_status_before_processing": "Платёж отправлен",
+  "last_confirmed_status": "Платёж отправлен",
+  "proposed_status": null,
+  "crm_status_without_employee_approval": "Платёж отправлен",
+  "expected_status_if_proposal_approved": "Платёж отправлен",
+  "requires_review": true,
+  "next_action": "Уточнить факт зачисления у клиента.",
+  "clarification": "Уточнить факт зачисления у клиента.",
+  "expected_mail_ids": [
+    "M027",
+    "M046"
+  ],
+  "documents_before": [
+    "application.pdf",
+    "invoice.pdf"
+  ],
+  "documents_to_add": [],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "application.pdf",
+    "invoice.pdf"
+  ]
+}

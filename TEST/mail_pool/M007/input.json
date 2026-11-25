@@ -1,0 +1,9 @@
+{
+  "mail_id": "M007",
+  "subject": "Уточнение",
+  "from": "manager@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T11:00:00+03:00",
+  "text": "Уточнили время встречи на завтра. Начнём в 09:30.",
+  "attachments": []
+}

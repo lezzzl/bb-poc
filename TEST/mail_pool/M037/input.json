@@ -1,0 +1,11 @@
+{
+  "mail_id": "M037",
+  "subject": "Заявка TEST-APP-104 на подпись",
+  "from": "desk@example.com",
+  "to": "client-beacon@example.com",
+  "date": "2026-11-20T10:12:00+03:00",
+  "text": "Отправляю документ-заявку TEST-APP-104 по счёту TEST-INV-704. Просьба подписать и вернуть документ.",
+  "attachments": [
+    "application.pdf"
+  ]
+}

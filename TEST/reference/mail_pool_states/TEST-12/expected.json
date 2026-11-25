@@ -1,0 +1,26 @@
+{
+  "case_id": "TEST-12",
+  "application_id": "TEST-APP-124",
+  "crm_status_before_processing": "Ожидаем отправки платежа",
+  "last_confirmed_status": "Ожидаем поступления денег",
+  "proposed_status": null,
+  "crm_status_without_employee_approval": "Ожидаем отправки платежа",
+  "expected_status_if_proposal_approved": "Ожидаем отправки платежа",
+  "requires_review": true,
+  "next_action": "Уточнить действительный статус входящего поступления у руководителя.",
+  "clarification": "Уточнить действительный статус входящего поступления у руководителя.",
+  "expected_mail_ids": [
+    "M029",
+    "M036"
+  ],
+  "documents_before": [
+    "application.pdf",
+    "invoice.pdf"
+  ],
+  "documents_to_add": [],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "application.pdf",
+    "invoice.pdf"
+  ]
+}

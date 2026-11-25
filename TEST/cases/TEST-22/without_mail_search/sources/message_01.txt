@@ -1,0 +1,7 @@
+От: client-beacon@example.com
+Кому: desk@example.com
+Дата: 2026-11-20T08:40:00+03:00
+Тема: Просьба оплатить TEST-INV-704
+Вложения: invoice.pdf
+
+Просим оплатить счёт TEST-INV-704 контрагента Beacon Demo Components. Счёт во вложении.

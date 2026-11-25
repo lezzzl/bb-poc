@@ -1,0 +1,11 @@
+{
+  "mail_id": "M039",
+  "subject": "Счёт к заявке",
+  "from": "client-vector@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T10:35:00+03:00",
+  "text": "Отправляю новый счёт для заявки TEST-APP-111.",
+  "attachments": [
+    "received_invoice.pdf"
+  ]
+}

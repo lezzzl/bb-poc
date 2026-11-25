@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bb-poc"
+version = "2.0.0"
+description = "PoC помощника по сопровождению клиентских заявок (НИС, команда 07)."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1,<2",
+    "pydantic>=2.7.4,<3",
+    "langchain-core>=1.4,<2",
+    "langchain-openrouter>=0.2.3,<0.3",
+    "langgraph>=1.2,<2",
+    "langgraph-checkpoint-sqlite>=2,<4",
+    "pypdf>=5,<7",
+    "streamlit>=1.40,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["poc", "poc.*"]
+
+[tool.setuptools.package-data]
+"poc.prompts" = ["*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

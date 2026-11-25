@@ -1,0 +1,27 @@
+{
+  "case_id": "TEST-14",
+  "application_id": "TEST-APP-126",
+  "crm_status_before_processing": "Ожидаем отправки платежа",
+  "last_confirmed_status": "Ожидаем отправки платежа",
+  "proposed_status": null,
+  "crm_status_without_employee_approval": "Ожидаем отправки платежа",
+  "expected_status_if_proposal_approved": "Ожидаем отправки платежа",
+  "requires_review": true,
+  "next_action": "Уточнить у руководителя, к какому счёту относится перевод.",
+  "clarification": "Уточнить у руководителя, к какому счёту относится перевод.",
+  "expected_mail_ids": [],
+  "documents_before": [
+    "application.pdf",
+    "invoice.pdf",
+    "payment_pay.pdf",
+    "related_open_request.json"
+  ],
+  "documents_to_add": [],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "application.pdf",
+    "invoice.pdf",
+    "payment_pay.pdf",
+    "related_open_request.json"
+  ]
+}

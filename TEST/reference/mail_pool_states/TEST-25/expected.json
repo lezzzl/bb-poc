@@ -1,0 +1,32 @@
+{
+  "case_id": "TEST-25",
+  "application_id": "TEST-APP-107",
+  "crm_status_before_processing": "Ожидаем подписания заявки",
+  "last_confirmed_status": "Ожидаем подписания заявки",
+  "proposed_status": null,
+  "crm_status_without_employee_approval": "Ожидаем подписания заявки",
+  "expected_status_if_proposal_approved": "Ожидаем подписания заявки",
+  "requires_review": true,
+  "next_action": "Получить подпись клиента на заявке.",
+  "clarification": "Получить подпись клиента на заявке.",
+  "expected_mail_ids": [
+    "M052"
+  ],
+  "documents_before": [
+    "invoice.pdf"
+  ],
+  "documents_to_add": [
+    {
+      "source_id": "NEW",
+      "mail_id": "M052",
+      "file_name": "returned_application.pdf",
+      "path": "documents/returned_application.pdf",
+      "classification": "received_incomplete"
+    }
+  ],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "invoice.pdf",
+    "returned_application.pdf"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "mail_id": "M003",
+  "subject": "Деньги получены контрагентом",
+  "from": "client-meridian@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T09:15:00+03:00",
+  "text": "Контрагент подтвердил зачисление по заявке TEST-APP-115, счёт TEST-INV-715.",
+  "attachments": []
+}

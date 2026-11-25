@@ -1,0 +1,27 @@
+{
+  "case_id": "TEST-31",
+  "application_id": "TEST-APP-131",
+  "crm_status_before_processing": "Ожидаем отправки платежа",
+  "last_confirmed_status": "Ожидаем отправки платежа",
+  "proposed_status": null,
+  "crm_status_without_employee_approval": "Ожидаем отправки платежа",
+  "expected_status_if_proposal_approved": "Ожидаем отправки платежа",
+  "requires_review": true,
+  "next_action": "Сверить дату валютирования перевода с руководителем и банком.",
+  "clarification": "Сверить дату валютирования перевода с руководителем и банком.",
+  "expected_mail_ids": [
+    "M056"
+  ],
+  "documents_before": [
+    "application.pdf",
+    "invoice.pdf",
+    "payment_pay.pdf"
+  ],
+  "documents_to_add": [],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "application.pdf",
+    "invoice.pdf",
+    "payment_pay.pdf"
+  ]
+}

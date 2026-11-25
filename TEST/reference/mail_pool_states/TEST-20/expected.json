@@ -1,0 +1,25 @@
+{
+  "case_id": "TEST-20",
+  "application_id": "TEST-APP-102",
+  "crm_status_before_processing": "Ожидаем поступления денег",
+  "last_confirmed_status": "Ожидаем поступления денег",
+  "proposed_status": null,
+  "crm_status_without_employee_approval": "Ожидаем поступления денег",
+  "expected_status_if_proposal_approved": "Ожидаем поступления денег",
+  "requires_review": true,
+  "next_action": "Уточнить у руководителя поступление денег по этой заявке.",
+  "clarification": "Подтвердите, поступили ли деньги на наш счёт по заявке TEST-APP-102.",
+  "expected_mail_ids": [
+    "M019"
+  ],
+  "documents_before": [
+    "application.pdf",
+    "invoice.pdf"
+  ],
+  "documents_to_add": [],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "application.pdf",
+    "invoice.pdf"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "TEST-21",
+  "application_id": "TEST-APP-103",
+  "crm_status_before_processing": "Платёж отправлен",
+  "last_confirmed_status": "Ожидаем отправки платежа",
+  "proposed_status": null,
+  "crm_status_without_employee_approval": "Платёж отправлен",
+  "expected_status_if_proposal_approved": "Платёж отправлен",
+  "requires_review": true,
+  "next_action": "Уточнить у руководителя факт отправки и основание отметки в CRM.",
+  "clarification": "Был ли выполнен исходящий перевод по TEST-APP-103 и где его подтверждение?",
+  "expected_mail_ids": [
+    "M041",
+    "M051"
+  ],
+  "documents_before": [
+    "application.pdf",
+    "invoice.pdf"
+  ],
+  "documents_to_add": [],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "application.pdf",
+    "invoice.pdf"
+  ]
+}

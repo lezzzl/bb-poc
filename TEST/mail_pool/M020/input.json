@@ -1,0 +1,11 @@
+{
+  "mail_id": "M020",
+  "subject": "Заявка на подпись",
+  "from": "desk@example.com",
+  "to": "client-spectrum@example.com",
+  "date": "2026-11-20T10:35:00+03:00",
+  "text": "Направляю заявку TEST-APP-113 по инвойсу TEST-INV-713 на подпись.",
+  "attachments": [
+    "application.pdf"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "application_id": "DEMO-RELATED-TEST-13",
+  "client_id": "CL-05",
+  "counterparty_id": "CP-01",
+  "invoice_id": "DEMO-RELATED-INV-TEST-13",
+  "status": "Платёж отправлен",
+  "currency": "EUR",
+  "counterparty_invoice_amount": 14250
+}

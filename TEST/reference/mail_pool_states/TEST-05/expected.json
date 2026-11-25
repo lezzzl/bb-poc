@@ -1,0 +1,25 @@
+{
+  "case_id": "TEST-05",
+  "application_id": "TEST-APP-117",
+  "crm_status_before_processing": "Ожидаем поступления денег",
+  "last_confirmed_status": "Ожидаем поступления денег",
+  "proposed_status": "Ожидаем отправки платежа",
+  "crm_status_without_employee_approval": "Ожидаем поступления денег",
+  "expected_status_if_proposal_approved": "Ожидаем отправки платежа",
+  "requires_review": false,
+  "next_action": "Передать счёт контрагента руководителю на оплату.",
+  "clarification": null,
+  "expected_mail_ids": [],
+  "documents_before": [
+    "application.pdf",
+    "invoice.pdf",
+    "payment_pay.pdf"
+  ],
+  "documents_to_add": [],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "application.pdf",
+    "invoice.pdf",
+    "payment_pay.pdf"
+  ]
+}

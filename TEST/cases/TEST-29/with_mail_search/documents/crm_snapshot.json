@@ -1,0 +1,33 @@
+{
+  "application_id": "TEST-APP-111",
+  "status": "Новая заявка",
+  "recorded_at": "2026-11-20T10:00:00+03:00",
+  "invoice_id": "TEST-INV-711",
+  "registered_on": "2026-11-19",
+  "counterparty_invoice_amount": 9070,
+  "currency": "GBP",
+  "client": {
+    "company_id": "CL-04",
+    "role": "Клиент",
+    "name": "ООО «Демо Вектор-Лаб»",
+    "registration_ref": "DEMO-CL-04",
+    "address": "Тестоград, ул. Синтетическая, 42",
+    "email": "client-vector@example.com"
+  },
+  "service_provider": {
+    "company_id": "SV-01",
+    "role": "Исполнитель",
+    "name": "ООО «Демо Расчёт-Сервис»",
+    "registration_ref": "DEMO-SV-01",
+    "address": "Тестоград, пл. Синтетическая, 5",
+    "email": "desk@example.com"
+  },
+  "counterparty": {
+    "company_id": "CP-03",
+    "role": "Контрагент",
+    "name": "Demo Atelier Parts",
+    "registration_ref": "DEMO-CP-03",
+    "address": "37 Fixture Road, Testport",
+    "email": "supplier-atelier@example.com"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "case_id": "TEST-02",
+  "application_id": "TEST-APP-114",
+  "client_id": "CL-04",
+  "counterparty_id": "CP-03",
+  "service_provider_id": "SV-01",
+  "cutoff_at": "2026-11-20T12:00:00+03:00",
+  "crm_snapshot": "documents/crm_snapshot.json",
+  "documents": [
+    {
+      "source_id": "INV",
+      "kind": "invoice",
+      "path": "documents/invoice.pdf",
+      "available_at": "2026-11-20T08:30:00+03:00",
+      "source_address": "client-vector@example.com"
+    },
+    {
+      "source_id": "APP",
+      "kind": "application",
+      "path": "documents/application.pdf",
+      "available_at": "2026-11-20T08:35:00+03:00",
+      "source_address": "client-vector@example.com"
+    },
+    {
+      "source_id": "PAY",
+      "kind": "payment_confirmation",
+      "path": "documents/payment_pay.pdf",
+      "available_at": "2026-11-20T10:35:00+03:00",
+      "source_address": "manager@example.com"
+    }
+  ]
+}

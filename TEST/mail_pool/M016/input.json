@@ -1,0 +1,9 @@
+{
+  "mail_id": "M016",
+  "subject": "Поступление по счёту",
+  "from": "client-beacon@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T10:31:00+03:00",
+  "text": "По старому счёту EXTRA-INV-717 уточняем дату зачисления для сверки за октябрь.",
+  "attachments": []
+}

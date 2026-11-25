@@ -1,0 +1,11 @@
+{
+  "mail_id": "M047",
+  "subject": "Ответ по заявке",
+  "from": "client-spectrum@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T10:35:00+03:00",
+  "text": "Возвращаю документ по заявке TEST-APP-123.",
+  "attachments": [
+    "returned_application.pdf"
+  ]
+}

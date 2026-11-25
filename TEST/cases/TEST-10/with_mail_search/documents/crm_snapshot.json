@@ -1,0 +1,33 @@
+{
+  "application_id": "TEST-APP-122",
+  "status": "Ожидаем отправки платежа",
+  "recorded_at": "2026-11-20T10:00:00+03:00",
+  "invoice_id": "TEST-INV-722",
+  "registered_on": "2026-11-19",
+  "counterparty_invoice_amount": 13140,
+  "currency": "GBP",
+  "client": {
+    "company_id": "CL-02",
+    "role": "Клиент",
+    "name": "ООО «Демо Маяк-Лаб»",
+    "registration_ref": "DEMO-CL-02",
+    "address": "Тестоград, ул. Синтетическая, 21",
+    "email": "client-beacon@example.com"
+  },
+  "service_provider": {
+    "company_id": "SV-01",
+    "role": "Исполнитель",
+    "name": "ООО «Демо Расчёт-Сервис»",
+    "registration_ref": "DEMO-SV-01",
+    "address": "Тестоград, пл. Синтетическая, 5",
+    "email": "desk@example.com"
+  },
+  "counterparty": {
+    "company_id": "CP-03",
+    "role": "Контрагент",
+    "name": "Demo Atelier Parts",
+    "registration_ref": "DEMO-CP-03",
+    "address": "37 Fixture Road, Testport",
+    "email": "supplier-atelier@example.com"
+  }
+}

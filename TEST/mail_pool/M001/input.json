@@ -1,0 +1,9 @@
+{
+  "mail_id": "M001",
+  "subject": "Заявка на подпись",
+  "from": "client-spectrum@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T10:22:00+03:00",
+  "text": "Дооформили заявку EXTRA-113 по счёту EXTRA-INV-713. Исправили только адрес поставки.",
+  "attachments": []
+}

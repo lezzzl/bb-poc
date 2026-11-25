@@ -1,0 +1,9 @@
+{
+  "mail_id": "M023",
+  "subject": "Ответ по заявке",
+  "from": "desk@example.com",
+  "to": "client-spectrum@example.com",
+  "date": "2026-11-20T10:35:00+03:00",
+  "text": "Пакет к отдельной заявке EXTRA-128, счёт EXTRA-INV-728 готов. Ожидаем согласование условий.",
+  "attachments": []
+}

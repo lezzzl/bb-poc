@@ -1,0 +1,598 @@
+[
+  {
+    "mail_id": "M017",
+    "subject": "Просьба оплатить TEST-INV-704",
+    "from": "client-beacon@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T08:40:00+03:00",
+    "message_path": "M017/message.txt",
+    "input_path": "M017/input.json",
+    "attachment_paths": [
+      "M017/invoice.pdf"
+    ]
+  },
+  {
+    "mail_id": "M036",
+    "subject": "Входящее поступление",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T09:05:00+03:00",
+    "message_path": "M036/message.txt",
+    "input_path": "M036/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M003",
+    "subject": "Деньги получены контрагентом",
+    "from": "client-meridian@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T09:15:00+03:00",
+    "message_path": "M003/message.txt",
+    "input_path": "M003/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M031",
+    "subject": "График на следующую неделю",
+    "from": "desk@example.com",
+    "to": "manager@example.com",
+    "date": "2026-11-20T09:18:00+03:00",
+    "message_path": "M031/message.txt",
+    "input_path": "M031/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M051",
+    "subject": "Поступление по TEST-APP-103",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T09:20:00+03:00",
+    "message_path": "M051/message.txt",
+    "input_path": "M051/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M013",
+    "subject": "Обновление адресной книги",
+    "from": "office@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T09:26:00+03:00",
+    "message_path": "M013/message.txt",
+    "input_path": "M013/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M053",
+    "subject": "График работы в декабре",
+    "from": "client-north@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T09:37:00+03:00",
+    "message_path": "M053/message.txt",
+    "input_path": "M053/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M033",
+    "subject": "Архив за октябрь",
+    "from": "archive@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T09:45:00+03:00",
+    "message_path": "M033/message.txt",
+    "input_path": "M033/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M024",
+    "subject": "Доступ на склад",
+    "from": "client-vector@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:02:00+03:00",
+    "message_path": "M024/message.txt",
+    "input_path": "M024/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M021",
+    "subject": "Перенос встречи",
+    "from": "office@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:07:00+03:00",
+    "message_path": "M021/message.txt",
+    "input_path": "M021/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M037",
+    "subject": "Заявка TEST-APP-104 на подпись",
+    "from": "desk@example.com",
+    "to": "client-beacon@example.com",
+    "date": "2026-11-20T10:12:00+03:00",
+    "message_path": "M037/message.txt",
+    "input_path": "M037/input.json",
+    "attachment_paths": [
+      "M037/application.pdf"
+    ]
+  },
+  {
+    "mail_id": "M054",
+    "subject": "Копия соглашения о конфиденциальности",
+    "from": "client-beacon@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:12:00+03:00",
+    "message_path": "M054/message.txt",
+    "input_path": "M054/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M009",
+    "subject": "Сменился номер поддержки",
+    "from": "support@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:16:00+03:00",
+    "message_path": "M009/message.txt",
+    "input_path": "M009/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M005",
+    "subject": "Перевод выполнен",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:18:00+03:00",
+    "message_path": "M005/message.txt",
+    "input_path": "M005/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M012",
+    "subject": "Поступление по TEST-APP-101",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:18:00+03:00",
+    "message_path": "M012/message.txt",
+    "input_path": "M012/input.json",
+    "attachment_paths": [
+      "M012/payment_confirmation.pdf"
+    ]
+  },
+  {
+    "mail_id": "M019",
+    "subject": "Перевод по TEST-APP-102",
+    "from": "client-north@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:18:00+03:00",
+    "message_path": "M019/message.txt",
+    "input_path": "M019/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M035",
+    "subject": "Копия платёжного подтверждения",
+    "from": "client-north@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:18:00+03:00",
+    "message_path": "M035/message.txt",
+    "input_path": "M035/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M001",
+    "subject": "Заявка на подпись",
+    "from": "client-spectrum@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:22:00+03:00",
+    "message_path": "M001/message.txt",
+    "input_path": "M001/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M042",
+    "subject": "Акт",
+    "from": "client-meridian@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:29:00+03:00",
+    "message_path": "M042/message.txt",
+    "input_path": "M042/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M016",
+    "subject": "Поступление по счёту",
+    "from": "client-beacon@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:31:00+03:00",
+    "message_path": "M016/message.txt",
+    "input_path": "M016/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M002",
+    "subject": "Акт",
+    "from": "client-meridian@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M002/message.txt",
+    "input_path": "M002/input.json",
+    "attachment_paths": [
+      "M002/act_act.pdf"
+    ]
+  },
+  {
+    "mail_id": "M004",
+    "subject": "Черновик готов",
+    "from": "desk@example.com",
+    "to": "manager@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M004/message.txt",
+    "input_path": "M004/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M006",
+    "subject": "Акт",
+    "from": "client-meridian@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M006/message.txt",
+    "input_path": "M006/input.json",
+    "attachment_paths": [
+      "M006/act_act.pdf"
+    ]
+  },
+  {
+    "mail_id": "M011",
+    "subject": "Ответ по заявке",
+    "from": "client-spectrum@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M011/message.txt",
+    "input_path": "M011/input.json",
+    "attachment_paths": [
+      "M011/returned_application.pdf"
+    ]
+  },
+  {
+    "mail_id": "M014",
+    "subject": "Документ получили",
+    "from": "client-meridian@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M014/message.txt",
+    "input_path": "M014/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M015",
+    "subject": "Статус исходящего перевода",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M015/message.txt",
+    "input_path": "M015/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M020",
+    "subject": "Заявка на подпись",
+    "from": "desk@example.com",
+    "to": "client-spectrum@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M020/message.txt",
+    "input_path": "M020/input.json",
+    "attachment_paths": [
+      "M020/application.pdf"
+    ]
+  },
+  {
+    "mail_id": "M023",
+    "subject": "Ответ по заявке",
+    "from": "desk@example.com",
+    "to": "client-spectrum@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M023/message.txt",
+    "input_path": "M023/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M026",
+    "subject": "Зачисление получателю",
+    "from": "client-meridian@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M026/message.txt",
+    "input_path": "M026/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M027",
+    "subject": "Первоначальное сообщение",
+    "from": "client-vector@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M027/message.txt",
+    "input_path": "M027/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M029",
+    "subject": "Исправление сведений о поступлении",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M029/message.txt",
+    "input_path": "M029/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M030",
+    "subject": "Ответ по заявке",
+    "from": "client-spectrum@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M030/message.txt",
+    "input_path": "M030/input.json",
+    "attachment_paths": [
+      "M030/returned_application.pdf"
+    ]
+  },
+  {
+    "mail_id": "M032",
+    "subject": "Перевод выполнен",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M032/message.txt",
+    "input_path": "M032/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M034",
+    "subject": "Документ получили",
+    "from": "client-meridian@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M034/message.txt",
+    "input_path": "M034/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M038",
+    "subject": "Подтверждаем зачисление",
+    "from": "client-north@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M038/message.txt",
+    "input_path": "M038/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M039",
+    "subject": "Счёт к заявке",
+    "from": "client-vector@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M039/message.txt",
+    "input_path": "M039/input.json",
+    "attachment_paths": [
+      "M039/received_invoice.pdf"
+    ]
+  },
+  {
+    "mail_id": "M040",
+    "subject": "Документ получили",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M040/message.txt",
+    "input_path": "M040/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M044",
+    "subject": "Входящее поступление",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M044/message.txt",
+    "input_path": "M044/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M045",
+    "subject": "Акт",
+    "from": "client-north@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M045/message.txt",
+    "input_path": "M045/input.json",
+    "attachment_paths": [
+      "M045/act_act.pdf"
+    ]
+  },
+  {
+    "mail_id": "M047",
+    "subject": "Ответ по заявке",
+    "from": "client-spectrum@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M047/message.txt",
+    "input_path": "M047/input.json",
+    "attachment_paths": [
+      "M047/returned_application.pdf"
+    ]
+  },
+  {
+    "mail_id": "M048",
+    "subject": "Исправление сведений о поступлении",
+    "from": "client-vector@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M048/message.txt",
+    "input_path": "M048/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M049",
+    "subject": "Акт",
+    "from": "client-beacon@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M049/message.txt",
+    "input_path": "M049/input.json",
+    "attachment_paths": [
+      "M049/act_act.pdf"
+    ]
+  },
+  {
+    "mail_id": "M050",
+    "subject": "Деньги получены контрагентом",
+    "from": "client-meridian@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M050/message.txt",
+    "input_path": "M050/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M052",
+    "subject": "Ответ по заявке",
+    "from": "client-beacon@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M052/message.txt",
+    "input_path": "M052/input.json",
+    "attachment_paths": [
+      "M052/returned_application.pdf"
+    ]
+  },
+  {
+    "mail_id": "M055",
+    "subject": "Подписание акта",
+    "from": "client-spectrum@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:35:00+03:00",
+    "message_path": "M055/message.txt",
+    "input_path": "M055/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M043",
+    "subject": "Возвращаем акт",
+    "from": "client-north@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:40:00+03:00",
+    "message_path": "M043/message.txt",
+    "input_path": "M043/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M028",
+    "subject": "Черновик готов",
+    "from": "client-spectrum@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:44:00+03:00",
+    "message_path": "M028/message.txt",
+    "input_path": "M028/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M022",
+    "subject": "Счёт к заявке",
+    "from": "client-vector@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T10:52:00+03:00",
+    "message_path": "M022/message.txt",
+    "input_path": "M022/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M007",
+    "subject": "Уточнение",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T11:00:00+03:00",
+    "message_path": "M007/message.txt",
+    "input_path": "M007/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M008",
+    "subject": "Подписи в заявке",
+    "from": "client-spectrum@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T11:00:00+03:00",
+    "message_path": "M008/message.txt",
+    "input_path": "M008/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M010",
+    "subject": "Подписи в заявке",
+    "from": "client-beacon@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T11:00:00+03:00",
+    "message_path": "M010/message.txt",
+    "input_path": "M010/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M018",
+    "subject": "Статус исходящего перевода",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T11:00:00+03:00",
+    "message_path": "M018/message.txt",
+    "input_path": "M018/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M046",
+    "subject": "Уточнение",
+    "from": "client-vector@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T11:00:00+03:00",
+    "message_path": "M046/message.txt",
+    "input_path": "M046/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M056",
+    "subject": "Дата валютирования перевода по TEST-INV-731",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T11:00:00+03:00",
+    "message_path": "M056/message.txt",
+    "input_path": "M056/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M057",
+    "subject": "Поступление с назначением по TEST-INV-732 и TEST-INV-732-B",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T11:00:00+03:00",
+    "message_path": "M057/message.txt",
+    "input_path": "M057/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M025",
+    "subject": "Подписание акта",
+    "from": "client-meridian@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T11:10:00+03:00",
+    "message_path": "M025/message.txt",
+    "input_path": "M025/input.json",
+    "attachment_paths": []
+  },
+  {
+    "mail_id": "M041",
+    "subject": "Платёж контрагенту по TEST-APP-103",
+    "from": "manager@example.com",
+    "to": "desk@example.com",
+    "date": "2026-11-20T11:10:00+03:00",
+    "message_path": "M041/message.txt",
+    "input_path": "M041/input.json",
+    "attachment_paths": []
+  }
+]

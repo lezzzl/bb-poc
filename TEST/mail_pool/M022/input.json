@@ -1,0 +1,9 @@
+{
+  "mail_id": "M022",
+  "subject": "Счёт к заявке",
+  "from": "client-vector@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T10:52:00+03:00",
+  "text": "По счёту EXTRA-INV-711 поставщик уточнил дату выставления. Он относится к EXTRA-111.",
+  "attachments": []
+}

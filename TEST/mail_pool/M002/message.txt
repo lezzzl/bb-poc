@@ -1,0 +1,7 @@
+От: client-meridian@example.com
+Кому: desk@example.com
+Дата: 2026-11-20T10:35:00+03:00
+Тема: Акт
+Вложения: act_act.pdf
+
+Возвращаем акт по заявке TEST-APP-115.

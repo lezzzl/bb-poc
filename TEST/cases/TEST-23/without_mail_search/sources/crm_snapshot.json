@@ -1,0 +1,33 @@
+{
+  "application_id": "TEST-APP-105",
+  "status": "Ожидаем подписания заявки",
+  "recorded_at": "2026-11-20T10:00:00+03:00",
+  "invoice_id": "TEST-INV-705",
+  "registered_on": "2026-11-19",
+  "counterparty_invoice_amount": 6850,
+  "currency": "GBP",
+  "client": {
+    "company_id": "CL-03",
+    "role": "Клиент",
+    "name": "ООО «Демо Спектр-Лаб»",
+    "registration_ref": "DEMO-CL-03",
+    "address": "Тестоград, пр. Синтетический, 37",
+    "email": "client-spectrum@example.com"
+  },
+  "service_provider": {
+    "company_id": "SV-01",
+    "role": "Исполнитель",
+    "name": "ООО «Демо Расчёт-Сервис»",
+    "registration_ref": "DEMO-SV-01",
+    "address": "Тестоград, пл. Синтетическая, 5",
+    "email": "desk@example.com"
+  },
+  "counterparty": {
+    "company_id": "CP-03",
+    "role": "Контрагент",
+    "name": "Demo Atelier Parts",
+    "registration_ref": "DEMO-CP-03",
+    "address": "37 Fixture Road, Testport",
+    "email": "supplier-atelier@example.com"
+  }
+}

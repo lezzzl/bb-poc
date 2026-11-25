@@ -1,0 +1,7 @@
+От: client-vector@example.com
+Кому: desk@example.com
+Дата: 2026-11-20T10:35:00+03:00
+Тема: Счёт к заявке
+Вложения: received_invoice.pdf
+
+Отправляю новый счёт для заявки TEST-APP-111.

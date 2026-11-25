@@ -1,0 +1,56 @@
+[
+  {
+    "role": "manager",
+    "email": "manager@example.com",
+    "company_id": "SV-01",
+    "can_confirm": [
+      "incoming_payment_received",
+      "outgoing_payment_executed"
+    ]
+  },
+  {
+    "role": "employee",
+    "email": "desk@example.com",
+    "company_id": "SV-01"
+  },
+  {
+    "role": "client",
+    "email": "client-north@example.com",
+    "company_id": "CL-01",
+    "can_confirm": [
+      "counterparty_received_payment"
+    ]
+  },
+  {
+    "role": "client",
+    "email": "client-beacon@example.com",
+    "company_id": "CL-02",
+    "can_confirm": [
+      "counterparty_received_payment"
+    ]
+  },
+  {
+    "role": "client",
+    "email": "client-spectrum@example.com",
+    "company_id": "CL-03",
+    "can_confirm": [
+      "counterparty_received_payment"
+    ]
+  },
+  {
+    "role": "client",
+    "email": "client-vector@example.com",
+    "company_id": "CL-04",
+    "can_confirm": [
+      "counterparty_received_payment"
+    ]
+  },
+  {
+    "role": "client",
+    "email": "client-meridian@example.com",
+    "company_id": "CL-05",
+    "can_confirm": [
+      "counterparty_received_payment"
+    ]
+  }
+]

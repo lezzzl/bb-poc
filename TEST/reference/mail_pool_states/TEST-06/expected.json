@@ -1,0 +1,23 @@
+{
+  "case_id": "TEST-06",
+  "application_id": "TEST-APP-118",
+  "crm_status_before_processing": "Новая заявка",
+  "last_confirmed_status": "Новая заявка",
+  "proposed_status": null,
+  "crm_status_without_employee_approval": "Новая заявка",
+  "expected_status_if_proposal_approved": "Новая заявка",
+  "requires_review": true,
+  "next_action": "Уточнить у сотрудника отправку заявки клиенту после подготовки.",
+  "clarification": "Уточнить у сотрудника отправку заявки клиенту после подготовки.",
+  "expected_mail_ids": [
+    "M004"
+  ],
+  "documents_before": [
+    "invoice.pdf"
+  ],
+  "documents_to_add": [],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "invoice.pdf"
+  ]
+}

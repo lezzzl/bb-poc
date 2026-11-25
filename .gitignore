@@ -1,0 +1,8 @@
+.env
+poc_data/
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+TEST/assignments.csv

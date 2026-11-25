@@ -1,0 +1,46 @@
+{
+  "case_id": "TEST-17",
+  "dataset": "holdout",
+  "application_id": "TEST-APP-129",
+  "client_id": "CL-04",
+  "service_provider_id": "SV-01",
+  "counterparty_id": "CP-03",
+  "initial_status": "Ожидаем отправки платежа",
+  "cutoff_at": "2026-11-20T12:00:00+03:00",
+  "sources": [
+    {
+      "source_id": "CRM",
+      "kind": "crm_snapshot",
+      "path": "sources/crm_snapshot.json",
+      "available_at": "2026-11-20T10:00:00+03:00"
+    },
+    {
+      "source_id": "INV",
+      "kind": "invoice",
+      "path": "sources/invoice.pdf",
+      "available_at": "2026-11-20T08:30:00+03:00",
+      "source_address": "client-vector@example.com"
+    },
+    {
+      "source_id": "APP",
+      "kind": "application",
+      "path": "sources/application.pdf",
+      "available_at": "2026-11-20T08:35:00+03:00",
+      "source_address": "client-vector@example.com"
+    },
+    {
+      "source_id": "E00",
+      "kind": "email",
+      "path": "sources/e00.txt",
+      "available_at": "2026-11-20T09:05:00+03:00",
+      "source_address": "manager@example.com"
+    },
+    {
+      "source_id": "PAY",
+      "kind": "payment_confirmation",
+      "path": "sources/payment_pay.pdf",
+      "available_at": "2026-11-20T10:35:00+03:00",
+      "source_address": "manager@example.com"
+    }
+  ]
+}

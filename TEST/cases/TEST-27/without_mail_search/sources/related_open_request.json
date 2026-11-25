@@ -1,0 +1,9 @@
+{
+  "application_id": "DEMO-RELATED-TEST-27",
+  "client_id": "CL-05",
+  "counterparty_id": "CP-02",
+  "invoice_id": "DEMO-RELATED-INV-TEST-27",
+  "status": "Ожидаем поступления денег",
+  "currency": "USD",
+  "counterparty_invoice_amount": 8330
+}

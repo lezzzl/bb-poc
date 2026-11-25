@@ -1,0 +1,33 @@
+{
+  "application_id": "TEST-APP-126",
+  "status": "Ожидаем отправки платежа",
+  "recorded_at": "2026-11-20T10:00:00+03:00",
+  "invoice_id": "TEST-INV-726",
+  "registered_on": "2026-11-19",
+  "counterparty_invoice_amount": 14620,
+  "currency": "USD",
+  "client": {
+    "company_id": "CL-01",
+    "role": "Клиент",
+    "name": "ООО «Демо Север-Лаб»",
+    "registration_ref": "DEMO-CL-01",
+    "address": "Тестоград, пр. Синтетический, 10",
+    "email": "client-north@example.com"
+  },
+  "service_provider": {
+    "company_id": "SV-01",
+    "role": "Исполнитель",
+    "name": "ООО «Демо Расчёт-Сервис»",
+    "registration_ref": "DEMO-SV-01",
+    "address": "Тестоград, пл. Синтетическая, 5",
+    "email": "desk@example.com"
+  },
+  "counterparty": {
+    "company_id": "CP-02",
+    "role": "Контрагент",
+    "name": "Beacon Demo Components",
+    "registration_ref": "DEMO-CP-02",
+    "address": "21 Fixture Road, Testport",
+    "email": "supplier-beacon@example.com"
+  }
+}

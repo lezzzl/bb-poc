@@ -1,0 +1,33 @@
+{
+  "application_id": "TEST-APP-117",
+  "status": "Ожидаем поступления денег",
+  "recorded_at": "2026-11-20T10:00:00+03:00",
+  "invoice_id": "TEST-INV-717",
+  "registered_on": "2026-11-19",
+  "counterparty_invoice_amount": 11290,
+  "currency": "EUR",
+  "client": {
+    "company_id": "CL-02",
+    "role": "Клиент",
+    "name": "ООО «Демо Маяк-Лаб»",
+    "registration_ref": "DEMO-CL-02",
+    "address": "Тестоград, ул. Синтетическая, 21",
+    "email": "client-beacon@example.com"
+  },
+  "service_provider": {
+    "company_id": "SV-01",
+    "role": "Исполнитель",
+    "name": "ООО «Демо Расчёт-Сервис»",
+    "registration_ref": "DEMO-SV-01",
+    "address": "Тестоград, пл. Синтетическая, 5",
+    "email": "desk@example.com"
+  },
+  "counterparty": {
+    "company_id": "CP-01",
+    "role": "Контрагент",
+    "name": "Northwind Demo Supply",
+    "registration_ref": "DEMO-CP-01",
+    "address": "10 Fixture Road, Testport",
+    "email": "supplier-north@example.com"
+  }
+}

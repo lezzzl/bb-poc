@@ -1,0 +1,27 @@
+{
+  "case_id": "TEST-28",
+  "application_id": "TEST-APP-110",
+  "crm_status_before_processing": "Оформление и подписание акта",
+  "last_confirmed_status": "Оформление и подписание акта",
+  "proposed_status": null,
+  "crm_status_without_employee_approval": "Оформление и подписание акта",
+  "expected_status_if_proposal_approved": "Оформление и подписание акта",
+  "requires_review": true,
+  "next_action": "Запросить подписанный акт с номером целевой заявки.",
+  "clarification": "Запросить подписанный акт с номером целевой заявки.",
+  "expected_mail_ids": [
+    "M055"
+  ],
+  "documents_before": [
+    "application.pdf",
+    "invoice.pdf",
+    "related_open_request.json"
+  ],
+  "documents_to_add": [],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "application.pdf",
+    "invoice.pdf",
+    "related_open_request.json"
+  ]
+}

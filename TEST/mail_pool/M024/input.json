@@ -1,0 +1,9 @@
+{
+  "mail_id": "M024",
+  "subject": "Доступ на склад",
+  "from": "client-vector@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T10:02:00+03:00",
+  "text": "Уточните, нужно ли оставлять номер машины для въезда на склад.",
+  "attachments": []
+}

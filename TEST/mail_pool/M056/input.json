@@ -1,0 +1,9 @@
+{
+  "mail_id": "M056",
+  "subject": "Дата валютирования перевода по TEST-INV-731",
+  "from": "manager@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T11:00:00+03:00",
+  "text": "Исходящий перевод DEMO-SW-131-OUT по заявке TEST-APP-131, инвойс TEST-INV-731, выполнен. Дата валютирования — 20 ноября 2026 года.",
+  "attachments": []
+}

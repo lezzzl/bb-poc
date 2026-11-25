@@ -1,0 +1,17 @@
+{
+  "case_id": null,
+  "card_status": null,
+  "last_confirmed_status": null,
+  "proposed_status": null,
+  "facts": [
+    {
+      "fact": null,
+      "source_ids": []
+    }
+  ],
+  "next_action": null,
+  "requires_review": null,
+  "clarification": null,
+  "employee_decision": null,
+  "final_card_status": null
+}

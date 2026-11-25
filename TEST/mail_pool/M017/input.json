@@ -1,0 +1,11 @@
+{
+  "mail_id": "M017",
+  "subject": "Просьба оплатить TEST-INV-704",
+  "from": "client-beacon@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T08:40:00+03:00",
+  "text": "Просим оплатить счёт TEST-INV-704 контрагента Beacon Demo Components. Счёт во вложении.",
+  "attachments": [
+    "invoice.pdf"
+  ]
+}

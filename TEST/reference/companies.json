@@ -1,0 +1,65 @@
+{
+  "CL-01": {
+    "role": "Клиент",
+    "name": "ООО «Демо Север-Лаб»",
+    "registration_ref": "DEMO-CL-01",
+    "address": "Тестоград, пр. Синтетический, 10",
+    "email": "client-north@example.com"
+  },
+  "CL-02": {
+    "role": "Клиент",
+    "name": "ООО «Демо Маяк-Лаб»",
+    "registration_ref": "DEMO-CL-02",
+    "address": "Тестоград, ул. Синтетическая, 21",
+    "email": "client-beacon@example.com"
+  },
+  "SV-01": {
+    "role": "Исполнитель",
+    "name": "ООО «Демо Расчёт-Сервис»",
+    "registration_ref": "DEMO-SV-01",
+    "address": "Тестоград, пл. Синтетическая, 5",
+    "email": "desk@example.com"
+  },
+  "CP-01": {
+    "role": "Контрагент",
+    "name": "Northwind Demo Supply",
+    "registration_ref": "DEMO-CP-01",
+    "address": "10 Fixture Road, Testport",
+    "email": "supplier-north@example.com"
+  },
+  "CP-02": {
+    "role": "Контрагент",
+    "name": "Beacon Demo Components",
+    "registration_ref": "DEMO-CP-02",
+    "address": "21 Fixture Road, Testport",
+    "email": "supplier-beacon@example.com"
+  },
+  "CL-03": {
+    "role": "Клиент",
+    "name": "ООО «Демо Спектр-Лаб»",
+    "registration_ref": "DEMO-CL-03",
+    "address": "Тестоград, пр. Синтетический, 37",
+    "email": "client-spectrum@example.com"
+  },
+  "CL-04": {
+    "role": "Клиент",
+    "name": "ООО «Демо Вектор-Лаб»",
+    "registration_ref": "DEMO-CL-04",
+    "address": "Тестоград, ул. Синтетическая, 42",
+    "email": "client-vector@example.com"
+  },
+  "CL-05": {
+    "role": "Клиент",
+    "name": "ООО «Демо Меридиан-Лаб»",
+    "registration_ref": "DEMO-CL-05",
+    "address": "Тестоград, пл. Синтетическая, 55",
+    "email": "client-meridian@example.com"
+  },
+  "CP-03": {
+    "role": "Контрагент",
+    "name": "Demo Atelier Parts",
+    "registration_ref": "DEMO-CP-03",
+    "address": "37 Fixture Road, Testport",
+    "email": "supplier-atelier@example.com"
+  }
+}

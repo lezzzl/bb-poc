@@ -1,0 +1,9 @@
+{
+  "mail_id": "M021",
+  "subject": "Перенос встречи",
+  "from": "office@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T10:07:00+03:00",
+  "text": "Встречу по общим вопросам перенесли с 11:30 на 15:00.",
+  "attachments": []
+}

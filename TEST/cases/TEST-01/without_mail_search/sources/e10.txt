@@ -1,0 +1,7 @@
+От: desk@example.com
+Кому: client-spectrum@example.com
+Дата: 2026-11-20T10:35:00+03:00
+Тема: Заявка на подпись
+Вложения: application.pdf
+
+Направляю заявку TEST-APP-113 по инвойсу TEST-INV-713 на подпись.

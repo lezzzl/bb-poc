@@ -1,0 +1,33 @@
+{
+  "case_id": "TEST-22",
+  "application_id": "TEST-APP-104",
+  "crm_status_before_processing": "Новая заявка",
+  "last_confirmed_status": "Новая заявка",
+  "proposed_status": "Ожидаем подписания заявки",
+  "crm_status_without_employee_approval": "Новая заявка",
+  "expected_status_if_proposal_approved": "Ожидаем подписания заявки",
+  "requires_review": false,
+  "next_action": "Получить подписанную клиентом заявку.",
+  "clarification": null,
+  "expected_mail_ids": [
+    "M017",
+    "M037"
+  ],
+  "documents_before": [
+    "invoice.pdf"
+  ],
+  "documents_to_add": [
+    {
+      "source_id": "APP",
+      "mail_id": "M037",
+      "file_name": "application.pdf",
+      "path": "documents/application.pdf",
+      "classification": "received"
+    }
+  ],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "application.pdf",
+    "invoice.pdf"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "source": "Таблица 2.10",
+  "transitions": [
+    {
+      "id": "T01",
+      "from": "Новая заявка",
+      "event": "Заявка зарегистрирована, клиенту отправлены заявка и при необходимости счёт",
+      "confirmation": "Запись в CRM, отправленные документы",
+      "to": "Ожидаем подписания заявки",
+      "event_code": "application_sent",
+      "evidence_types": [
+        "crm_record",
+        "application_sent_documents"
+      ]
+    },
+    {
+      "id": "T02",
+      "from": "Ожидаем подписания заявки",
+      "event": "Заявка подписана обеими сторонами",
+      "confirmation": "Подписанная заявка",
+      "to": "Ожидаем поступления денег",
+      "event_code": "application_signed",
+      "evidence_types": [
+        "application_signed_by_both"
+      ]
+    },
+    {
+      "id": "T03",
+      "from": "Ожидаем поступления денег",
+      "event": "Деньги поступили",
+      "confirmation": "Подтверждение руководителя — файл в папке клиента или сообщение",
+      "to": "Ожидаем отправки платежа",
+      "event_code": "incoming_payment_received",
+      "evidence_types": [
+        "manager_message",
+        "manager_confirmation_file"
+      ]
+    },
+    {
+      "id": "T04",
+      "from": "Ожидаем отправки платежа",
+      "event": "Платёж контрагенту выполнен",
+      "confirmation": "Документ о переводе — файл в папке клиента или сообщение руководителя",
+      "to": "Платёж отправлен",
+      "event_code": "outgoing_payment_executed",
+      "evidence_types": [
+        "transfer_document",
+        "manager_message"
+      ]
+    },
+    {
+      "id": "T05",
+      "from": "Платёж отправлен",
+      "event": "Контрагент получил деньги",
+      "confirmation": "Подтверждение клиента",
+      "to": "Оформление и подписание акта",
+      "event_code": "counterparty_received_payment",
+      "evidence_types": [
+        "client_confirmation"
+      ]
+    },
+    {
+      "id": "T06",
+      "from": "Оформление и подписание акта",
+      "event": "Акт подписан обеими сторонами",
+      "confirmation": "Акт с двумя подписями",
+      "to": "Заявка завершена",
+      "event_code": "act_signed",
+      "evidence_types": [
+        "act_signed_by_both"
+      ]
+    }
+  ]
+}

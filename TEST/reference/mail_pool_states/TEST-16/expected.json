@@ -1,0 +1,30 @@
+{
+  "case_id": "TEST-16",
+  "application_id": "TEST-APP-128",
+  "crm_status_before_processing": "Ожидаем подписания заявки",
+  "last_confirmed_status": "Ожидаем подписания заявки",
+  "proposed_status": null,
+  "crm_status_without_employee_approval": "Ожидаем подписания заявки",
+  "expected_status_if_proposal_approved": "Ожидаем подписания заявки",
+  "requires_review": true,
+  "next_action": "Запросить подписанный документ по целевой заявке.",
+  "clarification": "Запросить подписанный документ по целевой заявке.",
+  "expected_mail_ids": [
+    "M011"
+  ],
+  "documents_before": [
+    "invoice.pdf"
+  ],
+  "documents_to_add": [],
+  "attachments_not_to_save": [
+    {
+      "source_id": "NEW",
+      "mail_id": "M011",
+      "file_name": "returned_application.pdf",
+      "reason": "Вложение относится к другой заявке."
+    }
+  ],
+  "documents_after": [
+    "invoice.pdf"
+  ]
+}

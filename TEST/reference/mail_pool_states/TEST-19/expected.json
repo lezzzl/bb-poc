@@ -1,0 +1,34 @@
+{
+  "case_id": "TEST-19",
+  "application_id": "TEST-APP-101",
+  "crm_status_before_processing": "Ожидаем поступления денег",
+  "last_confirmed_status": "Ожидаем поступления денег",
+  "proposed_status": "Ожидаем отправки платежа",
+  "crm_status_without_employee_approval": "Ожидаем поступления денег",
+  "expected_status_if_proposal_approved": "Ожидаем отправки платежа",
+  "requires_review": false,
+  "next_action": "Передать счёт контрагента руководителю на оплату.",
+  "clarification": null,
+  "expected_mail_ids": [
+    "M012"
+  ],
+  "documents_before": [
+    "application.pdf",
+    "invoice.pdf"
+  ],
+  "documents_to_add": [
+    {
+      "source_id": "PAY",
+      "mail_id": "M012",
+      "file_name": "payment_confirmation.pdf",
+      "path": "documents/payment_confirmation.pdf",
+      "classification": "received"
+    }
+  ],
+  "attachments_not_to_save": [],
+  "documents_after": [
+    "application.pdf",
+    "invoice.pdf",
+    "payment_confirmation.pdf"
+  ]
+}

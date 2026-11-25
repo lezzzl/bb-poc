@@ -1,0 +1,18 @@
+{
+  "case_id": "TEST-22",
+  "application_id": "TEST-APP-104",
+  "client_id": "CL-02",
+  "counterparty_id": "CP-02",
+  "service_provider_id": "SV-01",
+  "cutoff_at": "2026-11-20T12:00:00+03:00",
+  "crm_snapshot": "documents/crm_snapshot.json",
+  "documents": [
+    {
+      "source_id": "INV",
+      "kind": "invoice",
+      "path": "documents/invoice.pdf",
+      "available_at": "2026-11-20T08:40:00+03:00",
+      "source_address": "client-beacon@example.com"
+    }
+  ]
+}

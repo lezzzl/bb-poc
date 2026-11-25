@@ -1,0 +1,9 @@
+{
+  "mail_id": "M018",
+  "subject": "Статус исходящего перевода",
+  "from": "manager@example.com",
+  "to": "desk@example.com",
+  "date": "2026-11-20T11:00:00+03:00",
+  "text": "Банк сообщил, что перевод по заявке TEST-APP-122 отклонён. Исполнения по TEST-INV-722 не было.",
+  "attachments": []
+}
